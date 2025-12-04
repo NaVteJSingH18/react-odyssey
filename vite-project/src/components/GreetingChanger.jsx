@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
-const GreetingChanger = () => {
-    const[greet,SetGreet]=useState("welcome,firsttime");
+const GreetingChanger = () => { 
+    const[greet,SetGreet]=useState("welcome");
     function greeting(){
         SetGreet(greet=>"hello")
     }
@@ -12,5 +12,4 @@ const GreetingChanger = () => {
     </div>
   )
 }
-
 export default GreetingChanger
